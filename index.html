@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Dhruvin Barot — Cloud Engineer, AI Builder, Certified Pro"/>
+  <title>Dhruvin Barot — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ══ SKY / CLOUD CANVAS ══ -->
+  <div id="sky"></div>
+
+  <!-- ══ NAV ══ -->
+  <nav>
+    <a href="#hero">~home</a>
+    <a href="#about">about</a>
+    <a href="#experience">exp</a>
+    <a href="#projects">projects</a>
+    <a href="#hackathons">wins</a>
+    <a href="#certifications">certs</a>
+    <a href="#contact">contact</a>
+  </nav>
+
+  <div class="wrapper">
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <p class="hero-pre"><span>$ </span>whoami &amp;&amp; echo "welcome"</p>
+      <h1 class="hero-name" id="typed-name"><span class="cursor-blink"></span></h1>
+      <div class="adj-row">
+        <span class="adj-pill">[ Builder ]</span>
+        <span class="adj-pill">[ Researcher ]</span>
+        <span class="adj-pill">[ Certified Pro ]</span>
+      </div>
+      <div class="scroll-cue">
+        <div class="scroll-pipe"></div>
+        scroll_down
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about">
+      <div class="card reveal">
+        <div class="term-tag">&gt;_ about.md</div>
+        <p class="s-label">Who I Am</p>
+        <h2 class="s-title">About <span>Me</span></h2>
+        <p class="about-text">
+          I'm a <strong>Master's CS student at Syracuse University</strong> who architects cloud systems by day and wins hackathons by night.
+          I build at the intersection of <strong>AI, cloud infrastructure, and backend engineering</strong> — from RAG-powered research engines processing 10,000+ papers to event-driven AWS data platforms eliminating 100% of manual handling.
+          Holding both an <strong>AWS Solutions Architect</strong> and <strong>Google Cloud Professional Architect</strong> certification, I don't just deploy to the cloud — I engineer it from the ground up.
+          I thrive in fast-paced environments where ownership, curiosity, and impact matter — and I'm actively hunting a full-time role to build things that actually move the needle. <strong>Let's talk.</strong>
+        </p>
+        <div class="badge-row">
+          <div class="badge">🟠 AWS Solutions Architect</div>
+          <div class="badge">☁️ GCP Professional Architect</div>
+          <div class="badge">🎓 MSCS @ Syracuse</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXPERIENCE ── -->
+    <section id="experience">
+      <div class="card reveal" style="max-width:880px;">
+        <div class="term-tag">&gt;_ experience.json</div>
+        <p class="s-label">Career</p>
+        <h2 class="s-title">Work <span>Experience</span></h2>
+        <div class="exp-list">
+
+          <div class="exp-card">
+            <div class="exp-top">
+              <div>
+                <div class="exp-role">Software Developer</div>
+                <div class="exp-org">iConsult Collaborator — Albany, NY</div>
+              </div>
+              <span class="exp-date">Oct 2025 – Present</span>
+            </div>
+            <ul class="exp-bullets">
+              <li>Architected multi-environment AWS data platform with CDK IaC — 30+ resources across 6 environments, slashing provisioning time by 80%.</li>
+              <li>Engineered event-driven pipelines (S3 → SQS → Lambda → Glue) automating Garmin health data ingestion, eliminating 100% of manual handling.</li>
+              <li>Processed 7 health metrics enabling real-time analytics for 100+ daily patient batches at 99.9% data integrity.</li>
+            </ul>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-top">
+              <div>
+                <div class="exp-role">Research Assistant</div>
+                <div class="exp-org">Syracuse University — New York</div>
+              </div>
+              <span class="exp-date">Aug 2025 – May 2026</span>
+            </div>
+            <ul class="exp-bullets">
+              <li>Built production RAG system with FastAPI + LangGraph processing 10,000+ behavioral health PDFs at &lt;200ms for 100+ concurrent users.</li>
+              <li>Implemented ChromaDB, BM25 &amp; cross-encoder reranking — boosted recall by 28–45% at sub-200ms response times.</li>
+              <li>Reduced literature review time by 70% via automated citation pipeline with HuggingFace + LangChain.</li>
+            </ul>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-top">
+              <div>
+                <div class="exp-role">Teaching Assistant</div>
+                <div class="exp-org">Syracuse University — New York</div>
+              </div>
+              <span class="exp-date">Jun 2025 – Aug 2025</span>
+            </div>
+            <ul class="exp-bullets">
+              <li>Mentored 25+ students in Python, algorithms, SQL/NoSQL, FastAPI &amp; Flask — 95% student satisfaction rating.</li>
+              <li>Improved project completion by 30% and cut turnaround time by 40% through structured code reviews and workshops.</li>
+            </ul>
+          </div>
+
+          <div class="exp-card">
+            <div class="exp-top">
+              <div>
+                <div class="exp-role">Data Analyst</div>
+                <div class="exp-org">Maimoon Enterprises — Mumbai, India</div>
+              </div>
+              <span class="exp-date">Dec 2023 – May 2024</span>
+            </div>
+            <ul class="exp-bullets">
+              <li>Built ARIMA/Prophet time-series forecasting models to predict demand and enable proactive procurement strategies.</li>
+              <li>Delivered pre/post-COVID supply chain impact analysis using Pandas, NumPy, Scikit-Learn &amp; Seaborn.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects">
+      <div class="section-wrapper reveal">
+        <div class="term-tag centered">&gt;_ ls ./projects</div>
+        <p class="s-label centered">What I've Shipped</p>
+        <h2 class="s-title centered"><span>Projects</span></h2>
+        <div class="proj-grid">
+
+          <div class="proj-card">
+            <div class="proj-num">project_01 //</div>
+            <div class="proj-name">MedIntel RAG Discovery Engine</div>
+            <div class="proj-desc">Domain-aware RAG stack indexing 10,000+ behavioral health papers. Dual-retrieval (ChromaDB + BM25) with cross-encoder reranking boosted precision 28–45% at sub-200ms for 100+ concurrent sessions.</div>
+            <div class="proj-tags">
+              <span class="proj-tag">FastAPI</span>
+              <span class="proj-tag">LangGraph</span>
+              <span class="proj-tag">ChromaDB</span>
+              <span class="proj-tag">HuggingFace</span>
+              <span class="proj-tag">BM25</span>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-num">project_02 //</div>
+            <div class="proj-name">Albany Health Management Platform</div>
+            <div class="proj-desc">Automated batch-completion monitoring via EventBridge + CloudWatch triggering Glue workflows for 49-patient file batches. 85% pytest coverage ensuring production reliability.</div>
+            <div class="proj-tags">
+              <span class="proj-tag">AWS CDK</span>
+              <span class="proj-tag">EventBridge</span>
+              <span class="proj-tag">Glue</span>
+              <span class="proj-tag">Lambda</span>
+              <span class="proj-tag">CloudWatch</span>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-num">project_03 //</div>
+            <div class="proj-name">CuseRents</div>
+            <div class="proj-desc">Micro-rental marketplace with distance-based filtering, refundable deposits &amp; Stripe payments. 50+ active beta users. 🏆 1st place at Syracuse University Hackathon.</div>
+            <div class="proj-tags">
+              <span class="proj-tag">Django REST</span>
+              <span class="proj-tag">React</span>
+              <span class="proj-tag">PostgreSQL</span>
+              <span class="proj-tag">Stripe</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── HACKATHONS ── -->
+    <section id="hackathons">
+      <div class="card reveal" style="max-width:880px;">
+        <div class="term-tag">&gt;_ achievements.log</div>
+        <p class="s-label">Wins &amp; Recognition</p>
+        <h2 class="s-title">Hackathons <span>&amp; Activities</span></h2>
+        <div class="hack-grid">
+
+          <div class="hack-card">
+            <div class="hack-icon">🏆</div>
+            <div>
+              <div class="hack-title">1st Place — CuseHacks Datathon 2026</div>
+              <div class="hack-sub">// Track 3: Urban Data Analysis &amp; Prediction</div>
+              <div class="hack-desc">Built <strong>CityUnmasked</strong> — spatial + statistical analysis of urban decay and crime in Syracuse across 4 municipal datasets. BallTree Haversine proved crimes 2× more likely within 100m of decay zones. Bidirectional Granger Causality over 108 months, Type A/B/C neighborhood classification, and a logistic regression hotspot model — all in a 7-tab Streamlit dashboard.</div>
+            </div>
+          </div>
+
+          <div class="hack-card">
+            <div class="hack-icon">🥇</div>
+            <div>
+              <div class="hack-title">1st Place — Syracuse University Hackathon</div>
+              <div class="hack-sub">// Best Entrepreneurial Model Award</div>
+              <div class="hack-desc">CuseRents: micro-rental marketplace built in 24 hours — Django, React, PostgreSQL &amp; Stripe. Onboarded 50+ active beta users post-event.</div>
+            </div>
+          </div>
+
+          <div class="hack-card">
+            <div class="hack-icon">🔦</div>
+            <div>
+              <div class="hack-title">Best Code — Research Day Poster</div>
+              <div class="hack-sub">// Judge Assignment · Syracuse University</div>
+              <div class="hack-desc">Recognized for outstanding code quality and technical depth across research-grade AI/ML implementation at SU Research Day.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CERTIFICATIONS ── -->
+    <section id="certifications">
+      <div class="section-wrapper reveal">
+        <div class="term-tag centered">&gt;_ cat credentials.txt</div>
+        <p class="s-label centered">Credentials</p>
+        <h2 class="s-title centered"><span>Certifications</span></h2>
+        <div class="certs-grid">
+
+          <div class="cert-card">
+            <div class="cert-icon">🟠</div>
+            <div class="cert-name">AWS Solutions Architect</div>
+            <div class="cert-issuer">Amazon Web Services · Dec 2025–2028</div>
+            <div class="cert-desc">Scalable cloud architectures, IaC with CDK/CloudFormation, multi-environment deployments, serverless &amp; event-driven design patterns.</div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">☁️</div>
+            <div class="cert-name">Professional Cloud Architect</div>
+            <div class="cert-issuer">Google Cloud · Aug 2025–2027</div>
+            <div class="cert-desc">GCP-native system design, reliability engineering, cloud security, and managing scalable data &amp; ML infrastructure.</div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">📊</div>
+            <div class="cert-name">Data Analysis</div>
+            <div class="cert-issuer">MedTourEasy · Jun 2023</div>
+            <div class="cert-desc">Hands-on fitness data analytics, data cleaning pipelines, exploratory data analysis, and project delivery under mentorship.</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="skills-section">
+      <div class="card reveal" style="text-align:center;">
+        <div class="term-tag">&gt;_ pip list &amp;&amp; kubectl get all</div>
+        <p class="s-label">Tech Stack</p>
+        <h2 class="s-title" style="margin-bottom:24px;"><span>Skills</span></h2>
+        <div class="skills-cloud">
+          <span class="skill-chip">Python</span>
+          <span class="skill-chip">FastAPI</span>
+          <span class="skill-chip">Django</span>
+          <span class="skill-chip">AWS CDK</span>
+          <span class="skill-chip">Lambda</span>
+          <span class="skill-chip">S3 / SQS / Glue</span>
+          <span class="skill-chip">Google Cloud</span>
+          <span class="skill-chip">Kubernetes</span>
+          <span class="skill-chip">Docker</span>
+          <span class="skill-chip">LangGraph</span>
+          <span class="skill-chip">LangChain</span>
+          <span class="skill-chip">HuggingFace</span>
+          <span class="skill-chip">ChromaDB</span>
+          <span class="skill-chip">PostgreSQL</span>
+          <span class="skill-chip">Snowflake</span>
+          <span class="skill-chip">React</span>
+          <span class="skill-chip">TypeScript</span>
+          <span class="skill-chip">PyTorch</span>
+          <span class="skill-chip">Prometheus</span>
+          <span class="skill-chip">Grafana</span>
+          <span class="skill-chip">CI/CD</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+      <div class="card reveal" style="text-align:center;">
+        <div class="term-tag">&gt;_ send_message.sh</div>
+        <p class="s-label">Let's Connect</p>
+        <h2 class="s-title">Get In <span>Touch</span></h2>
+        <p class="contact-sub">
+          // Open to full-time: <strong>Cloud Eng</strong> · <strong>Backend</strong> · <strong>AI/ML</strong><br/>
+          // Response time faster than p95 latency ⚡
+        </p>
+        <div class="contact-links">
+          <a href="mailto:dhruvinbarot28@gmail.com" class="c-btn">✉️ ./email</a>
+          <a href="https://www.linkedin.com/in/dhruvinbarot-72727273711234r5" target="_blank" rel="noopener" class="c-btn">💼 ./linkedin</a>
+          <a href="https://github.com" target="_blank" rel="noopener" class="c-btn">🐙 ./github</a>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- end .wrapper -->
+
+  <footer>
+    <span>dhruvin_barot</span> · Syracuse, NY · 2026 · built with <span>☁️</span> + <span>⚡</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
